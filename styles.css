@@ -36,13 +36,37 @@ body {
 }
 main {
   background-color: hsl(216, 50%, 16%);
-  padding: 1.2rem;
+  padding: 1rem;
   /* FIXME: || convert px to rem */
-  width: 375px;
+  width: 365px;
+}
+.container.img {
+  display: grid;
+  place-content: center;
 }
 .product-img {
   border-radius: 0.5rem;
-  max-width: 100%;
+  height: 350px;
+  width: 340px;
+  margin: auto;
+}
+.img-overlay {
+  border-radius: 0.5rem;
+  margin-top: -350px;
+  height: 350px;
+  width: 340px;
+  opacity: 0;
+  background-image: url("./images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* display: grid;
+  place-content: center; */
+}
+.img-overlay:hover {
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.65;
+}
+.img-overlay img {
 }
 h1 {
   display: inline-block;
