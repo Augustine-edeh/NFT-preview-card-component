@@ -18,15 +18,17 @@ TODO: Challennge goals:
 */
 
 :root {
-  /*Colors*/
+  /* || COLOURS */
   --Softblue: hsl(215, 51%, 70%);
   --Cyan: hsl(178, 100%, 50%);
   --mainBG: hsl(217, 54%, 11%);
   --cardBG: hsl(216, 50%, 16%);
   --line: hsl(215, 32%, 27%);
   --White: hsl(0, 0%, 100%);
-  /*fonts*/
+  /* || FONT*/
   --outfit: "Outfit", sans-serif;
+  /* || DEFAULT FONT-SIZE */
+  font-size: 16px;
 }
 
 /* || RESET */
@@ -34,7 +36,6 @@ TODO: Challennge goals:
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 18px;
   color: var(--White);
 }
 body {
@@ -52,7 +53,7 @@ main {
   padding: 1rem;
   /* FIXME: || convert px to rem */
   margin: auto;
-  width: 360px;
+  width: 22.5rem;
 }
 .container.img {
   display: grid;
@@ -124,13 +125,15 @@ hr {
   color: var(--Cyan);
 }
 .attribution {
-  font-size: 11px;
+  font-size: 0.75rem;
   text-align: center;
   margin-top: 0.5rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* || MOBILE VIEW DESIGN */
 @media (max-width: 376px) {
   main {
     /* FIXME: || convert px to rem */
