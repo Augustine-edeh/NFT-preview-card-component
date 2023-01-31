@@ -16,16 +16,28 @@ TODO: Challennge goals:
 3. FIXME: See hover and focus states for interactive elements
 */
 
+:root {
+  /*Colors*/
+  --Softblue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  /*fonts*/
+  --outfit: "Outfit", sans-serif;
+}
+
 /* || RESET */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-size: 18px;
-  color: hsl(0, 0%, 100%);
+  color: var(--White);
 }
 body {
-  background-color: hsl(217, 54%, 11%);
+  background-color: var(--mainBG);
   display: grid;
   /* text-align: center; */
   place-content: center;
@@ -35,7 +47,7 @@ body {
   border-radius: 1rem;
 }
 main {
-  background-color: hsl(216, 50%, 16%);
+  background-color: var(--cardBG);
   padding: 1rem;
   /* FIXME: || convert px to rem */
   width: 365px;
@@ -63,7 +75,7 @@ main {
   place-content: center; */
 }
 .img-overlay:hover {
-  background-color: hsl(178, 100%, 50%);
+  background-color: var(--cyan);
   opacity: 0.65;
 }
 .img-overlay img {
@@ -80,7 +92,7 @@ h1 {
   display: flex;
   align-items: center;
   margin-right: auto;
-  color: hsl(178, 100%, 50%);
+  color: var(--cyan);
 }
 .days-left {
   display: flex;
@@ -90,7 +102,7 @@ h1 {
   margin-right: 0.3rem;
 }
 hr {
-  border: 1px solid hsl(215, 32%, 27%);
+  border: 1px solid var(--line);
 }
 .footer {
   display: flex;
@@ -114,11 +126,11 @@ hr {
   /* max-width: 100%; */
 }
 .text-dark {
-  color: hsl(215, 51%, 70%);
+  color: var(--softblue);
 }
 .focus-items:hover {
   cursor: pointer;
-  color: hsl(178, 100%, 50%);
+  color: var(--cyan);
 }
 .attribution {
   font-size: 11px;
@@ -131,19 +143,19 @@ hr {
 
 /* || COLOURS PREVIEW */
 .color-preview {
-  background-color: hsl(215, 51%, 70%), hsl(178, 100%, 50%),
-    /* || main */ hsl(217, 54%, 11%), /* || card BG*/ hsl(216, 50%, 16%),
-    /* || line */ hsl(215, 32%, 27%), /* White */ hsl(0, 0%, 100%);
+  background-color: var(--softblue), var(--cyan), /* || main */ var(--mainBG),
+    /* || card BG*/ var(--cardBG), /* || line */ var(--line),
+    /* White */ var(--White);
 }
 
 /* 
- Soft blue: hsl(215, 51%, 70%)
-- Cyan: hsl(178, 100%, 50%)
+ Soft blue: var(--softblue)
+- Cyan: var(--cyan)
 
 ### Neutral
 
-- Very dark blue (main BG): hsl(217, 54%, 11%)
-- Very dark blue (card BG): hsl(216, 50%, 16%)
-- Very dark blue (line): hsl(215, 32%, 27%)
-- White: hsl(0, 0%, 100%)
+- Very dark blue (main BG): var(--mainBG)
+- Very dark blue (card BG): var(--cardBG)
+- Very dark blue (line): var(--line)
+- White: var(--White)
  */
