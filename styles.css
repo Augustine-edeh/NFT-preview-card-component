@@ -1,21 +1,4 @@
-/* || font-family: */
-/* Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 300, 400, 600 */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
-
-/* || BREAK POINTS */
-/* 
-Mobile: 375px
-Desktop: 1440px
- */
-
-/* 
-TODO: Challennge goals:
-
-1. FIXME: Desktop view Design
-2. FIXME: Mobile view Design ( View the optimal layout depending on their device's screen size)
-3. FIXME: See hover and focus states for interactive elements
-*/
 
 :root {
   /* || COLOURS */
@@ -51,7 +34,6 @@ body {
 main {
   background-color: var(--cardBG);
   padding: 1rem;
-  /* FIXME: || convert px to rem */
   margin: auto;
   width: 22.5rem;
 }
@@ -136,7 +118,6 @@ hr {
 /* || MOBILE VIEW DESIGN */
 @media (max-width: 376px) {
   main {
-    /* FIXME: || convert px to rem */
     width: 20.313rem;
     margin: auto;
   }
