@@ -61,15 +61,15 @@ main {
 }
 .product-img {
   border-radius: 0.5rem;
-  height: 345px;
-  width: 335px;
+  height: 21.563rem;
+  width: 20.938rem;
   margin: auto;
 }
 .img-overlay {
   border-radius: 0.5rem;
-  margin-top: -345px;
-  height: 345px;
-  width: 335px;
+  margin-top: -21.563rem;
+  height: 21.563rem;
+  width: 20.938rem;
   opacity: 0;
   background-image: url("./images/icon-view.svg");
   background-repeat: no-repeat;
@@ -137,16 +137,16 @@ hr {
 @media (max-width: 376px) {
   main {
     /* FIXME: || convert px to rem */
-    width: 325px;
+    width: 20.313rem;
     margin: auto;
   }
   .product-img {
-    height: 340px;
-    width: 295.5px;
+    height: 21.25rem;
+    width: 18.469rem;
   }
   .img-overlay {
-    margin-top: -340px;
-    height: 340px;
-    width: 295.5px;
+    margin-top: -21.25rem;
+    height: 21.25rem;
+    width: 18.469rem;
   }
 }
