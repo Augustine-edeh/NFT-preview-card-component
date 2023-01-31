@@ -75,7 +75,7 @@ main {
   place-content: center; */
 }
 .img-overlay:hover {
-  background-color: var(--cyan);
+  background-color: var(--Cyan);
   opacity: 0.65;
 }
 .img-overlay img {
@@ -92,7 +92,7 @@ h1 {
   display: flex;
   align-items: center;
   margin-right: auto;
-  color: var(--cyan);
+  color: var(--Cyan);
 }
 .days-left {
   display: flex;
@@ -130,7 +130,7 @@ hr {
 }
 .focus-items:hover {
   cursor: pointer;
-  color: var(--cyan);
+  color: var(--Cyan);
 }
 .attribution {
   font-size: 11px;
@@ -143,14 +143,14 @@ hr {
 
 /* || COLOURS PREVIEW */
 .color-preview {
-  background-color: var(--softblue), var(--cyan), /* || main */ var(--mainBG),
+  background-color: var(--softblue), var(--Cyan), /* || main */ var(--mainBG),
     /* || card BG*/ var(--cardBG), /* || line */ var(--line),
     /* White */ var(--White);
 }
 
 /* 
  Soft blue: var(--softblue)
-- Cyan: var(--cyan)
+- Cyan: var(--Cyan)
 
 ### Neutral
 
