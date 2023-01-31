@@ -39,7 +39,6 @@ TODO: Challennge goals:
 body {
   background-color: var(--mainBG);
   display: grid;
-  /* text-align: center; */
   place-content: center;
   min-height: 100vh;
 }
@@ -71,14 +70,10 @@ main {
   background-image: url("./images/icon-view.svg");
   background-repeat: no-repeat;
   background-position: center;
-  /* display: grid;
-  place-content: center; */
 }
 .img-overlay:hover {
   background-color: var(--Cyan);
   opacity: 0.65;
-}
-.img-overlay img {
 }
 h1 {
   display: inline-block;
@@ -110,20 +105,13 @@ hr {
   margin-top: 1rem;
 }
 .avatar {
-  /* background-color: red; */
   width: 2rem;
   margin-right: 1rem;
-  /* height: 3rem; */
-  /* padding: 1rem; */
-  /* width: 20px; */
 }
 .avatar-img {
   height: 2rem;
-  /* background-color: white; */
   border-radius: 50%;
   border: 1px solid white;
-  /* width: 3rem; */
-  /* max-width: 100%; */
 }
 .text-dark {
   color: var(--softblue);
@@ -140,22 +128,3 @@ hr {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-/* || COLOURS PREVIEW */
-.color-preview {
-  background-color: var(--softblue), var(--Cyan), /* || main */ var(--mainBG),
-    /* || card BG*/ var(--cardBG), /* || line */ var(--line),
-    /* White */ var(--White);
-}
-
-/* 
- Soft blue: var(--softblue)
-- Cyan: var(--Cyan)
-
-### Neutral
-
-- Very dark blue (main BG): var(--mainBG)
-- Very dark blue (card BG): var(--cardBG)
-- Very dark blue (line): var(--line)
-- White: var(--White)
- */
