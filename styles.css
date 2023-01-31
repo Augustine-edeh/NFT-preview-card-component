@@ -1,6 +1,7 @@
 /* || font-family: */
 /* Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 300, 400, 600 */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 /* || BREAK POINTS */
 /* 
@@ -38,6 +39,7 @@ TODO: Challennge goals:
 }
 body {
   background-color: var(--mainBG);
+  font-family: var(--outfit);
   display: grid;
   place-content: center;
   min-height: 100vh;
